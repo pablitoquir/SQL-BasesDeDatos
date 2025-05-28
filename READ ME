@@ -1,0 +1,20 @@
+# Base de Datos: Personas y Ciudades
+
+Este proyecto contiene una base de datos de ejemplo con personas y ciudades. Está pensado para practicar consultas SQL, desde las más simples hasta subconsultas e INNER JOINs.
+
+## Archivos
+
+- `create_db.sql`: Crea la base de datos y las tablas.
+- `insert_data.sql`: Inserta datos de prueba.
+- `queries.sql`: Contiene consultas básicas y avanzadas.
+- `README.md`: Este archivo de documentación.
+
+## Uso
+
+1. Ejecutá `create_db.sql`.
+2. Luego `insert_data.sql`.
+3. Probá las consultas de `queries.sql`.
+
+
+
+
