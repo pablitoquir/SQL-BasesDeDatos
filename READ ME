@@ -5,14 +5,14 @@ Este proyecto contiene una base de datos de ejemplo con personas y ciudades. Est
 ## Archivos
 
 - `Ciudades_Personas.sql`: Crea la base de datos y las tablas.
-- `insert_data.sql`: Inserta datos de prueba.
+- `Insertar_Valores_Personas_Ciudades`: Inserta datos de prueba.
 - `Consultas.sql`: Contiene consultas básicas y avanzadas.
 - `README.md`: Este archivo de documentación.
 
 ## Uso
 
 1. Ejecutá `Ciudades_Personas.sql`.
-2. Luego `insert_data.sql`.
+2. Luego `Insertar_Valores_Personas_Ciudades.sql`.
 3. Probá las consultas de `Consultas.sql`.
 
 
