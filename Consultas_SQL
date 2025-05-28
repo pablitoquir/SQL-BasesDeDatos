@@ -1,0 +1,23 @@
+-- Consulta simple: todas las personas
+SELECT * FROM personas;
+
+-- Consulta con INNER JOIN: personas y su ciudad
+SELECT 
+    p.nombre AS persona,
+    p.edad,
+    c.nombre AS ciudad,
+    c.pais
+FROM personas p
+INNER JOIN ciudades c ON p.ciudad_id = c.id;
+
+-- Subconsulta: personas mayores al promedio de edad
+SELECT * FROM personas
+WHERE edad > (
+    SELECT AVG(edad) FROM personas
+);
+
+-- Subconsulta con JOIN: personas que viven en ciudades de Argentina
+SELECT * FROM personas
+WHERE ciudad_id IN (
+    SELECT id FROM ciudades WHERE pais = 'Argentina'
+);
