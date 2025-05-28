@@ -1,0 +1,16 @@
+-- Insertar ciudades
+INSERT INTO ciudades (nombre, pais) VALUES 
+('Buenos Aires', 'Argentina'),
+('Córdoba', 'Argentina'),
+('Florianopolis', 'Brasil'),
+('Montevideo', 'Uruguay'),
+('Lima', 'Perú');
+
+-- Insertar personas
+INSERT INTO personas (nombre, edad, ciudad_id) VALUES
+('Marisa Pérez', 30, 1),
+('Ana Gómez', 25, 2),
+('Gimena Souza', 40, 3),
+('Lucía Fernández', 22, 4),
+('María Torres', 35, 1),
+('Martina Rojas', 28, 5);
